@@ -1,13 +1,13 @@
 function cat (name){
     this.name = name;
-    this.stromatch = [];
+    this.stomatch = [];
 }
 
 cat.prototype.eat = function  (mouse) {
-    this.stromatch.push(mouse);
+    this.stomatch.push(mouse);
 }
 cat.prototype.show = function  (mouse) {
-    console.log(this.stromatch)
+    console.log(this.stomatch)
 }
 
 module.exports = cat;
