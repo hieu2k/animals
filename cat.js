@@ -14,4 +14,8 @@ cat.prototype.eat = function  (animal) {
     }
 }
 
+cat.prototype.run = function() {
+    console.log("Run so fast");
+}
+
 module.exports = cat;
