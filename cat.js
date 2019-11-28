@@ -6,8 +6,12 @@ function cat (name){
 }
 
 cat.prototype.eat = function  (animal) {
-    if(animal instanceof Mo)
-    this.stomatch.push(mouse);
+    if(animal instanceof Mouse){
+        animal.die();
+        this.stomatch.push(animal);
+    }else {
+        throw new Error ("What happen? cat eat dog ?????");
+    }
 }
 
 module.exports = cat;
