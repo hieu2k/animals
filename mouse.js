@@ -8,4 +8,7 @@ mouse.prototype.die = function () {
     this.dead = true;
 }
 
+mouse.prototype.eat = function () {
+    console.log('I want eat any time and any day.');
+}
 module.exports = mouse;
