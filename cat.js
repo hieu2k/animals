@@ -1,5 +1,5 @@
-// var Mouse = require('./mouse');
-function cat (){
+function cat (name){
+    this.name = name;
     this.stromatch = [];
 }
 
