@@ -4,12 +4,12 @@ var Dog = require('./dog');
 
 
 var cat = new Cat('micky');
-var  mouse1 = new Mouse("Dog", 19);
-cat.eat(mouse1);
-mouse1.die();
-cat.show(mouse1);
-
+var  mouse = new Mouse("Dog", 19);
 var dog = new Dog('Tom');
-dog.sayHi();
-dog.eat(cat);
-console.log(dog);
+
+try{
+    cat.eat(dog);
+    console.log(cat);
+} catch (err){
+    console.log("Error While cat eating a dog ? bushit. ");
+}
