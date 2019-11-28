@@ -1,0 +1,14 @@
+{
+  "name": "commit",
+  "version": "1.0.0",
+  "description": "This project is demo, How do use check",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^3.0.0"
+  }
+}
