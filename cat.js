@@ -18,4 +18,8 @@ cat.prototype.sleep = function() {
     console.log("sleepping.....")
 }
 
+cat.prototype.run = function() {
+    console.log("Run so fast");
+}
+
 module.exports = cat;
