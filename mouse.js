@@ -11,4 +11,8 @@ mouse.prototype.die = function () {
 mouse.prototype.eat = function () {
     console.log('I want eat any time and any day.');
 }
+mouse.prototype.run = function() {
+    console.log("Run when i see cat");
+}
+
 module.exports = mouse;
